@@ -32,6 +32,7 @@ header img{
     margin-right: 30px;
     object-fit: contain;
     margin-left: 1rem;
+    flex-wrap: wrap;
 }
 
 nav{
@@ -115,5 +116,34 @@ section img{
 }
 div{
     justify-self: center;
+    text-align: center;
 }
+h4 a{
+    text-decoration: none;
+    color: #094067;
+}
+h4 a:hover{
+    color: #f16f87;
+}
+footer{
+    background-color: #282A36 ;
+    height: 30px;
+    justify-content: left;
+    color: #FFFFFF;
+}
+footer a{
+    text-decoration: none;
+    color: #f16f87;
+}
+footer a:hover{
+    color: #FFFFFF;
+}
+a {
+    text-decoration: none;
+
+}
+h5{
+    color: #094067;
+}
+
 
