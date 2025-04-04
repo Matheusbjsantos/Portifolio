@@ -90,6 +90,10 @@ section {
     color: #094067;
     font-style: italic;
 }
+section:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+}
 h1{
     font-size: 2rem;
     font-weight: bold;
@@ -114,6 +118,10 @@ section img{
     width: auto;
    
 }
+section ul li{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
 div{
     justify-self: center;
     text-align: center;
@@ -127,7 +135,7 @@ h4 a:hover{
 }
 footer{
     background-color: #282A36 ;
-    height: 30px;
+    height: 50px;
     justify-content: left;
     color: #FFFFFF;
 }
@@ -144,6 +152,10 @@ a {
 }
 h5{
     color: #094067;
+}
+figure img:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
 }
 
 
